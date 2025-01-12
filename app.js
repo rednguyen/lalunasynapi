@@ -98,6 +98,9 @@ app.get('/siteminderavailability', async (req, res) => {
     }
   });
   
+app.get('/', (req, res) => {
+  res.send('Hello!');
+})
 
 app.listen(5000, () => {
     console.log('Server listening on port 5000');
