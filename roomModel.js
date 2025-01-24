@@ -1,5 +1,5 @@
 class RoomSchema {
-    constructor(roomRateID, availability, rate, date, occ, barPrice, priceValidation) {
+    constructor(roomRateID, availability, rate, date) {
         this.roomRateID = roomRateID;
         this.availability = availability;
         this.rate = rate;
@@ -7,6 +7,7 @@ class RoomSchema {
         this.occ = 0;
         this.barPrice = 0;
         this.priceValidation = false;
+        this.season = "low";
   }
 }
 
